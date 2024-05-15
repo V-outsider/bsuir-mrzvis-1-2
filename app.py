@@ -85,8 +85,8 @@ def main():
         st.title('Коэффициент ускорения (ОКМД/ОКОД)')
         st.write('Введите значения для расчета коеффициента ускорения')
 
-        simd = st.number_input('Время вычисления ОКМД', step=1.0, value=0.46)
-        sisd = st.number_input('Время вычисления ОКОД', step=1.0, value=1.2)
+        simd = st.number_input('Время вычисления ОКОД', step=1.0, value=3.0)
+        sisd = st.number_input('Время вычисления ОКМД', step=1.0, value=1.2)
 
         st.divider()
 
